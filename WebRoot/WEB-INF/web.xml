@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>  
+<web-app>  
+    <servlet>  
+        <servlet-name>SearchController</servlet-name>  
+        <servlet-class>lucene.SearchController</servlet-class>  
+        <init-param>
+			 <param-name>development</param-name>
+			 <param-value>true</param-value>
+	    </init-param>
+        
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>SearchController</servlet-name>  
+        <url-pattern>/sample.dw.paper.lucene/SearchController</url-pattern>  
+    </servlet-mapping>   
+</web-app>  
